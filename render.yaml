@@ -1,9 +1,0 @@
-
-services:
-  - type: web
-    name: curva-abc-proxy
-    env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python proxy.py"
-    region: oregon
